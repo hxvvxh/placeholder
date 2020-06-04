@@ -1,0 +1,30 @@
+//刷新上下文环境 
+prepareRefresh()
+//这里是在子类中启动 refreshBeanFactory() 的地方 
+ConfigurableListableBeanFactory beanFactory = obtainFreshBeanFactory(); 
+//准备bean工厂，以便在此上下文中使用 
+prepareBeanFactory(beanFactory);
+ try {
+ /*设置 beanFactory 的后置处理。对Web Spring而言，这儿注册了个BeanPostProcessor. 
+ 这步很重要，因为后续的BeanFactoryPostProcessor的实例类需要这个做预处理*/ 
+ postProcessBeanFactory(beanFactory);
+ /*调用BeanFactory 的后处理器
+ 在此处通过PostProcessorRegistrationDelegate对BeanFactoryPostProcessor进行初始化. 并执行了postProcessBeanFactory方法 
+ PropertySourcesPlaceholderConfigurer就是在这儿进行初始化的。它会将配置文件切分成kv形式的Properties*/
+ invokeBeanFactoryPostProcessors(beanFactory); 
+ /*注册Bean的后处理器，在Bean创建过程中调用 
+ 在此处通过PostProcessorRegistrationDelegate对BeanPostProcessor等进行初始化*/
+ registerBeanPostProcessors(beanFactory); 
+ //对上下文中的消息源进行初始化 
+ initMessageSource(); 
+ //初始化上下文中的事件机制。指定SimpleApplicationEventMulticaster作为系统观察者 
+ initApplicationEventMulticaster();
+ //初始化其他特殊的Bean 
+ onRefresh(); 
+ ///检查监听Bean并且将这些监听Bean向容器注册
+ registerListeners();
+ /*这里是对所有剩余Bean(non-lazy-init)的初始化*/
+ finishBeanFactoryInitialization(beanFactory);
+ //此处开启了Spring的生命周期，事件被发送
+ finishRefresh();
+ }

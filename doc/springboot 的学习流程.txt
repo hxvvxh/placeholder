@@ -1,0 +1,28 @@
+springboot 的学习流程：
+
+(1) 先看懂注解是啥意思  做了那些事
+(2) 再看启动流程，每个步骤干了啥
+(3) 再看启动过程中又那些扩展点，每个扩展点在启动过程中的那个步骤
+(4) 再看bean的生命周期，在spring启动过程中每个步骤的加载过程，已经扩展点对bean做的操作
+(5) 再看各种注解作用的时机，实现，aop。mybatis实现等
+
+
+林尧大哥制定的学习计划：
+学习计划：
+一：spring (4.17~5.31 6周~8周)
+(1)spring容器刷新过程 
+(2)springboot启动过程
+(3)spring、springboot 扩展点
+(4)placeHolder机制
+(5)aop 机制
+(6)mybatis基于接口的代理
+(7)@Configuration、@ComponentScan、@Import、@bean 在spring容器加载的时机
+(8)其他等等
+
+二：dubbo(6-1~7-15 6周~7周)
+(1)服务注册发现
+(2)服务导出、服务引入
+(3)调用过程
+(4)spi机制
+(5)dubbo的ioc、aop、自适应等内容
+(6)线程模型

@@ -1,0 +1,43 @@
+一：@Inherited注解(java)  
+    用在定义注解上的注解
+    作用: 类继承关系中，子类会继承父类使用的注解中被@Inherited修饰的注解
+          接口继承关系中，子接口不会继承父接口中的任何注解
+          类实现接口时不会继承任何接口中定义的注解
+
+二：@ComponentScan注解(Spring)
+    包扫描。用于找到包中带有@Controller,@Service,@Repository,@Component的类 实例化
+    属性：(1)excludeFilters 排除某些类，不加载
+         (2)includeFilters 只加载指定的类 
+         (3)useDefaultFilters 默认为true加载项(@Controller,@Service,@Repository,@Component)  可以指定为flase 不加载默认项
+             @ComponentScan(excludeFilters = { @Filter(type = FilterType.CUSTOM, classes = TypeExcludeFilter.class)},
+                            includeFilters = { @Filter(type = FilterType.CUSTOM, classes = TypeExcludeFilter.class)})
+             1)@Filter：扫描条件 
+                FilterType.ANNOTATION：按注解的方式进行扫描 class为注解类型 继承AnnotationTypeFilter
+                FilterType.ASSIGNABLE_TYPE:按指定的类过滤  class为类 继承AssignableTypeFilter
+                FilterType.CUSTOM：按自己定义的方式来进行过滤和删选 继承TypeFilter。match方法的返回值为true时,为符合过滤条件,如果返回为false,则不符合过滤条件
+                FilterType.ASPECTJ：按照ASPECTJ表达式
+                FilterType.REGEX：按照正则表达
+
+三：@ComponentScans(spring) 
+    里面吗有多个ComponentScan
+
+四：@Scope(spring)               
+    控制是单例还是多例
+    singleton:单例,容器启动时创建Bean对象,且容器中只有一个实例.
+    prototype:多例,容器启动时不去创建Bean对象,每当获取的Bean的时候容器才去创建一个新的Bean对象.
+    request:同一次请求创建一个实例
+    session:同一个session创建一个实例
+
+五：@Conditional
+    @Conditional(TestCondition.class) 这句代码可以标注在类上面，表示该类下面的所有@Bean都会启用配置，也可以标注在方法上面，只是对该方法启用配置。
+    加在类上面.代表当满足条件是该配置类下的所有bean才会加载。Spring框架还提供了很多@Condition给我们用
+    @ConditionalOnBean（仅仅在当前上下文中存在某个对象时，才会实例化一个Bean）
+    @ConditionalOnClass（某个class位于类路径上，才会实例化一个Bean）
+    @ConditionalOnExpression（当表达式为true的时候，才会实例化一个Bean）
+    @ConditionalOnMissingBean（仅仅在当前上下文中不存在某个对象时，才会实例化一个Bean）该注解表示，如果存在它修饰的类的bean，则不需要再创建这个bean；可以给该注解传入参数例如@ConditionOnMissingBean(name = "example")，这个表示如果name为“example”的bean存在，这该注解修饰的代码块不执行。
+    @ConditionalOnMissingClass（某个class类路径上不存在的时候，才会实例化一个Bean）
+    @ConditionalOnNotWebApplication（不是web应用）
+    @ConditionalOnWebApplication（是web应用）
+    @ConditionalOnProperty(当有配置信息时生效)
+                
+六：@Import

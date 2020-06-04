@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8930b074-5349-43a7-9572-bb8e4476e838" name="Default" comment="init">
+      <change afterPath="$PROJECT_DIR$/doc/SpringBoot启动过程(1).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/placeholder-学习.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/springboot 的学习流程.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/springboot学习.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/springboot知识点.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/spring刷新过程.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/零散的spring知识：.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,6 +82,7 @@
           <entry key="gitignore" value="1" />
           <entry key="java" value="198" />
           <entry key="md" value="1" />
+          <entry key="txt" value="2" />
           <entry key="xml" value="5" />
           <entry key="yml" value="6" />
         </counts>
@@ -84,7 +92,7 @@
           <entry key="CLASS" value="4" />
           <entry key="JAVA" value="198" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="UML" value="5" />
           <entry key="XML" value="5" />
           <entry key="YAML" value="6" />
@@ -116,68 +124,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/factoryBean/MyFactoryBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="999">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://D:/maven-lv/apache-maven-3.5.2-bin/apache-maven-3.5.2/conf/settings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2098">
-              <caret line="291" column="4" lean-forward="true" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/controller/factoryBeanController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/factoryBean/MyAutoConfigration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/maven-reponse/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/FactoryBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -377,6 +324,11 @@
               <item name="placeholder" type="b2602c69:ProjectViewProjectNode" />
               <item name="placeholder" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="placeholder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -394,7 +346,7 @@
     <property name="SearchEverywhereHistoryKey" value="propertys&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE-sources.jar!/org/springframework/core/env/PropertySource.java&#10;StandardServletEnvironment&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE-sources.jar!/org/springframework/web/context/support/StandardServletEnvironment.java&#10;PropertyResolver&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar!/org/springframework/core/env/PropertyResolver.class&#10;propertysource&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE-sources.jar!/org/springframework/core/env/PropertySource.java&#10;PropertySource&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE-sources.jar!/org/springframework/core/env/PropertySource.java&#10;WebApplicationContextUtils&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE-sources.jar!/org/springframework/web/context/support/WebApplicationContextUtils.java&#10;abstractapplication&#9;PSI&#9;JAVA://org.springframework.context.support.AbstractApplicationContext&#10;MutablePropertySources&#9;PSI&#9;JAVA://org.springframework.core.env.MutablePropertySources&#10;abstractapp&#9;PSI&#9;JAVA://org.springframework.context.support.AbstractApplicationContext&#10;springapp&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/boot/spring-boot/2.2.6.RELEASE/spring-boot-2.2.6.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java&#10;proper&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/support/PropertySourcesPlaceholderConfigurer.java&#10;EmbeddedValueResolver&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.EmbeddedValueResolver&#10;pro&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/support/PropertySourcesPlaceholderConfigurer.java&#10;InstantiationAwareBeanPostProcessor&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java&#10;AutowiredAnnotationBeanPostProcessor&#9;PSI&#9;JAVA://org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor&#10;properties&#9;PSI&#9;JAVA://java.util.Properties&#10;spring&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/boot/spring-boot/2.2.6.RELEASE/spring-boot-2.2.6.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java&#10;Springboo&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.SpringBootApplication&#10;ConfigurationClassParser&#9;PSI&#9;JAVA://org.springframework.context.annotation.ConfigurationClassParser&#10;ApplicationContextInitializer &#9;PSI&#9;JAVA://org.springframework.context.ApplicationContextInitializer&#10;ConfigFileApplicationListener&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/boot/spring-boot/2.2.6.RELEASE/spring-boot-2.2.6.RELEASE-sources.jar!/org/springframework/boot/context/config/ConfigFileApplicationListener.java&#10;SimpleApplicationEventMulticaster&#9;PSI&#9;JAVA://org.springframework.context.event.SimpleApplicationEventMulticaster&#10;ConfigFileApplicationListener &#9;PSI&#9;JAVA://org.springframework.boot.context.config.ConfigFileApplicationListener&#10;abstractpro&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE-sources.jar!/org/springframework/core/env/AbstractPropertyResolver.java&#10;propertysourcepla&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/support/PropertySourcesPlaceholderConfigurer.java&#10;propertysourcespl&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/support/PropertySourcesPlaceholderConfigurer.java&#10;PropertySourcesPlaceholderConfigurer&#9;PSI&#9;JAVA://org.springframework.context.support.PropertySourcesPlaceholderConfigurer&#10;PropertyPlaceholderConfigurer&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/support/PropertySourcesPlaceholderConfigurer.java&#10;PlaceHolderAutoConfigurer&#9;PSI&#9;JAVA://com.hp.placeholder.placeholder.autoConfig.HpPlaceHolderAutoConfigurer&#10;PropertySourcesPropertyResolver&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE-sources.jar!/org/springframework/core/env/PropertySourcesPropertyResolver.java&#10;Propertyautoc&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration&#10;propr&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE-sources.jar!/org/springframework/core/env/PropertySourcesPropertyResolver.java&#10;SystemPropertyUtils&#9;PSI&#9;JAVA://org.springframework.util.SystemPropertyUtils&#10;prop&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/support/PropertySourcesPlaceholderConfigurer.class&#10;PlaceholderConfigurerSupport&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/factory/config/PlaceholderConfigurerSupport.class&#10;propertySourcesPlaceholderConfigurer&#9;FILE&#9;jar://C:/hp/soft/respository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/support/PropertySourcesPlaceholderConfigurer.class&#10;placeHolderc&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.PlaceholderConfigurerSupport" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591197269585" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591280266906" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../wxb/spring-study" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Project" />
@@ -404,6 +356,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\数跑\workspace\占位符替换\placeholder\placeholder\doc" />
       <recent name="H:\数跑\workspace\占位符替换\placeholder\placeholder\src\main\java\com\hp\placeholder\Initalizer" />
       <recent name="C:\hp\workspace\placeholder\placeholder\src\main\resources\META-INF" />
     </key>
@@ -525,7 +478,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126875000" />
+    <option name="totallyTimeSpent" value="127021000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,7 +491,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1308" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25560898" />
       <window_info id="Structure" order="1" weight="0.2451923" />
@@ -557,7 +509,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3276923" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32916668" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.59692305" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5953846" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32986626" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.38307694" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3276923" />
@@ -706,20 +658,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/propertySource/extendEnumerablePropertySource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/annotation/RetentionPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/maven-reponse/org/springframework/boot/spring-boot-test/2.2.6.RELEASE/spring-boot-test-2.2.6.RELEASE-sources.jar!/org/springframework/boot/test/context/SpringBootTestContextBootstrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1068,6 +1006,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2098">
           <caret line="291" column="4" lean-forward="true" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/springboot 的学习流程.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/springboot学习.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
