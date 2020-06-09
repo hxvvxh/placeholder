@@ -1,9 +1,0 @@
-server:
-  port: ${hp.serverPort}
-debug: true
-logging:
-  level:
-    com.hp.placeholder.mapper: debug
-hp:
-  value: value
-  placeholder: ?{hp.place}

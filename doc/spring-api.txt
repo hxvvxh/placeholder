@@ -1,0 +1,23 @@
+一：ConfigurableApplicationContext  接口 是applicationContext的通用接口
+    (1)ApplicationContext接口：
+        AutowireCapableBeanFactory getAutowireCapableBeanFactory();
+        对于想要拥有自动装配能力，把这种能力暴露给外部应用的beanFactory可以实现此接口。
+        正常情况下不使用此接口，应该是 使用BeanFactory或者 ListableBeanFactory接口 。
+        这个接口没有向spring托管bean的应用。 一个类实现此接口后很大程度上是需要实现BeanFactoryAware接口去在应用上下文Context 中返回beanFactory的
+    (2)ConfigurableApplicationContext 扩展了ApplicationContext
+        提供了应用于spring的基础方法
+        设置环境 ：setEnvironment()
+        获取环境 ：getEnvironment()
+        为context中设置bean工厂后置处理器：addBeanFactoryPostProcessor(BeanFactoryPostProcessor postProcessor)
+        为context设置application监听器：addApplicationListener(ApplicationListener<?> listener)
+        为context设置协议的解析规则：addProtocolResolver(ProtocolResolver resolver); 定义的规则是可以覆盖默认的解析规则
+        刷新：refresh()
+        是否活动：isActive();
+        获取应用上下文中的beanfactory：ConfigurableListableBeanFactory getBeanFactory() throws IllegalStateException;
+
+    (3)SpringBootExceptionReporter 定制化springboot启动时报错的回调  -- 定制报告 实现方式是回调方法
+
+    (4)PriorityOrdered,Ordered
+        PriorityOrdered的优先级高于Ordered 在spring启动过程中会先执行PriorityOrdered 的接口 在执行Ordered 最后执行没有继承两者的类
+
+    (5)

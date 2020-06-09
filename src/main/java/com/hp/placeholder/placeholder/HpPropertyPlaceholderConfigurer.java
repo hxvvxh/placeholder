@@ -50,7 +50,7 @@ public class HpPropertyPlaceholderConfigurer extends PlaceholderConfigurerSuppor
                         new PropertiesPropertySource(LOCAL_PROPERTIES_PROPERTY_SOURCE_NAME, mergeProperties());
                 this.propertySources.addFirst(localPropertySource);
             } catch (Exception ex) {
-                throw new BeanInitializationException("Could not load properties", ex);
+                throw new BeanInitializationException("Could     not load properties", ex);
             }
         }
         processProperties(beanFactory, new HpPropertySourcesPropertyResolver(this.propertySources));
