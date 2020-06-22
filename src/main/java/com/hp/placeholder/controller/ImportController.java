@@ -26,7 +26,7 @@ public class ImportController {
     /**
      *@Resource 是根据name去匹配的
      */
-    @Resource
+    @Resource(name="int2")
     private Int int2;
     @GetMapping(value = "/color")
     public Color getColor(){

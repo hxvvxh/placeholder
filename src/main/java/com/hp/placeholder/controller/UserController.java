@@ -1,6 +1,9 @@
 package com.hp.placeholder.controller;
 
+import com.hp.placeholder.wxb.bean.Red;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,6 +20,8 @@ public class UserController {
     private String placeholder;
     @Value("${hp.serverPort}")
     private String serverPort;
+    @Autowired
+    private Red red;
     @GetMapping(value = "/value")
     public String getValue(){
         return value;
@@ -28,5 +33,19 @@ public class UserController {
     @GetMapping(value = "/serverPort")
     public String getServerPort(){
         return serverPort;
+    }
+    @GetMapping(value = "/red",produces = MediaType.APPLICATION_JSON_VALUE)
+    public String getRed(){
+        return red.getRed();
+    }
+
+    @GetMapping(value = "/name",produces = MediaType.APPLICATION_JSON_VALUE)
+    public String getRedName(){
+        return red.getName();
+    }
+
+    @GetMapping(value = "/applicationName",produces = MediaType.APPLICATION_JSON_VALUE)
+    public String getRedApplicationName(){
+        return red.getApplicationName();
     }
 }
