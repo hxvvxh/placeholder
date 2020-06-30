@@ -41,3 +41,16 @@
     @ConditionalOnProperty(当有配置信息时生效)
                 
 六：@Import
+
+
+七：ImportBeanDefinitionRegistrar 接口
+    实现bean的动态注入
+    registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry)
+    向bean注册表中动态注册beanDefinition 剩下的交给spring来搞定
+
+八：AnnotationAttributes 类
+    注解的解析，将注解的信息进行对象储存的转换
+    在ImportBeanDefinitionRegistrar 所在的方法中registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry)
+    可以将spring容器中存在的beanDefinition上带的注解解析并获取对应注解类中的属性转换成AnnotationAttributes
+
+    其中有一个工具类：AnnotationConfigUtils.attributesFor(AnnotationMetadata,class); 找到对应的class获取注解属性封装成AnnotationAttributes（参考AspectJAutoProxyRegistrar）

@@ -1,10 +1,12 @@
 package com.hp.placeholder.controller;
 
+import com.hp.placeholder.wxb.aop.annotion.Log;
 import com.hp.placeholder.wxb.bean.Red;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -47,5 +49,11 @@ public class UserController {
     @GetMapping(value = "/applicationName",produces = MediaType.APPLICATION_JSON_VALUE)
     public String getRedApplicationName(){
         return red.getApplicationName();
+    }
+
+    @GetMapping(value = "/hp/{hp}")
+    @Log(value = "hppp",log = "UserController")
+    public String hp(@PathVariable("hp") String hp){
+        return hp+"test";
     }
 }

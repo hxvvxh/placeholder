@@ -10,9 +10,4 @@ public class ColorImportSelector implements ImportSelector {
     public String[] selectImports(AnnotationMetadata importingClassMetadata) {
         return new String[]{Color.class.getName()};
     }
-
-    @Override
-    public Predicate<String> getExclusionFilter() {
-        return null;
-    }
 }
