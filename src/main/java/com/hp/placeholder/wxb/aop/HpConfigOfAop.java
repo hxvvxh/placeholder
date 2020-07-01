@@ -1,4 +1,4 @@
-package com.hp.placeholder.wxb;
+package com.hp.placeholder.wxb.aop;
 
 import com.hp.placeholder.wxb.aop.LogAspect;
 import org.springframework.context.annotation.Bean;
