@@ -1,6 +1,8 @@
 package com.hp.placeholder.wxb.controller;
 
 import com.hp.placeholder.wxb.bean.Red;
+import com.hp.placeholder.wxb.config.ConfigOfPropertyValues;
+import com.hp.placeholder.wxb.config.ConfigOfPropertyValues2;
 import com.hp.placeholder.wxb.pojo.Auto;
 import com.hp.placeholder.wxb.pojo.AutoOfOther;
 import com.hp.placeholder.wxb.pojo.PojoInt;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.ResourceBundle;
 
 
 @RestController
@@ -133,5 +136,26 @@ public class ConfitController {
     @GetMapping(value = "/getPojoInt2",produces = MediaType.APPLICATION_JSON_VALUE)
     private String getPojoInt3(){
         return pojoInt3.getInt();
+    }
+
+    @Autowired
+    private ConfigOfPropertyValues configOfPropertyValues;
+
+    @GetMapping(value = "/getPropertyValues",produces = MediaType.APPLICATION_JSON_VALUE)
+    private ConfigOfPropertyValues getPropertyValues(){
+        return configOfPropertyValues;
+    }
+    @Autowired
+    private ConfigOfPropertyValues2 configOfPropertyValues2;
+
+    @GetMapping(value = "/getPropertyValues2",produces = MediaType.APPLICATION_JSON_VALUE)
+    private ConfigOfPropertyValues2 getPropertyValues2(){
+        return configOfPropertyValues2;
+    }
+
+
+    @GetMapping(value = "/getPropertyValues3",produces = MediaType.APPLICATION_JSON_VALUE)
+    private String getPropertyValues3(){
+        return ResourceBundle.getBundle("hpp").getString("hp.test");
     }
 }

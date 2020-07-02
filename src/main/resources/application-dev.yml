@@ -7,3 +7,6 @@ logging:
 hp:
   value: value
   placeholder: ?{hp.place}
+hpp:
+  userName: hanpeng
+  passWord: 102621
