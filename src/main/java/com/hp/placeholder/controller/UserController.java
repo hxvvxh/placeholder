@@ -1,6 +1,6 @@
 package com.hp.placeholder.controller;
 
-import com.hp.placeholder.application.HpApplicationContext;
+import com.hp.placeholder.applicationContext.HpApplicationContext;
 import com.hp.placeholder.listener.my.MyApplicationEvent;
 import com.hp.placeholder.wxb.aop.annotion.Log;
 import com.hp.placeholder.wxb.bean.Red;

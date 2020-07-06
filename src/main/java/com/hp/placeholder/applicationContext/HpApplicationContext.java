@@ -1,4 +1,4 @@
-package com.hp.placeholder.application;
+package com.hp.placeholder.applicationContext;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

@@ -46,10 +46,10 @@ XXX
 
 ```java
 /**
- * Run the Spring application, creating and refreshing a new
+ *applicationContext
  * {@link ApplicationContext}.
  *
- * @param args the application arguments (usually passed from a Java main method)
+ * @param args applicationContext
  * @return a running {@link ApplicationContext}
  *
  * 运行spring应用，并刷新一个新的 ApplicationContext（Spring的上下文）
@@ -1060,7 +1060,7 @@ public interface EnvironmentPostProcessor {
 	/**
 	 * Post-process the given {@code environment}.
 	 * @param environment the environment to post-process
-	 * @param application the application to which the environment belongs
+	 * @param application applicationContext
 	 */
 	void postProcessEnvironment(ConfigurableEnvironment environment, SpringApplication application);
 

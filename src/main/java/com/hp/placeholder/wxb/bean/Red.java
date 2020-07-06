@@ -48,7 +48,7 @@ public class Red implements ApplicationContextAware, EmbeddedValueResolverAware,
      */
     @Override
     public void setEmbeddedValueResolver(StringValueResolver resolver) {
-//        applicationName=resolver.resolveStringValue("项目名称：${spring.application.name}+配置文件后缀:?{spring.profiles.active}");
+//        applicationName=resolver.resolveStringValue("项目名称：${spring.applicationContext.name}+配置文件后缀:?{spring.profiles.active}");
         this.valueResolver=resolver;
 
     }
@@ -64,7 +64,7 @@ public class Red implements ApplicationContextAware, EmbeddedValueResolverAware,
     }
 
     public String getApplicationName() {
-        this.applicationName=valueResolver.resolveStringValue("项目名称：${spring.application.name}+配置文件后缀:?{spring.profiles.active}");
+        this.applicationName=valueResolver.resolveStringValue("项目名称：${spring.applicationContext.name}+配置文件后缀:?{spring.profiles.active}");
         return applicationName;
     }
 }
