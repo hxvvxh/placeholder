@@ -1,7 +1,10 @@
 package com.hp.placeholder.controller;
 
+import com.hp.placeholder.application.HpApplicationContext;
+import com.hp.placeholder.listener.my.MyApplicationEvent;
 import com.hp.placeholder.wxb.aop.annotion.Log;
 import com.hp.placeholder.wxb.bean.Red;
+import com.hp.placeholder.wxb.pojo.LiftCycle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
@@ -55,5 +58,21 @@ public class UserController {
     @Log(value = "hppp",log = "UserController")
     public String hp(@PathVariable("hp") String hp){
         return hp+"test";
+    }
+
+    @Autowired
+    private HpApplicationContext hpApplicationContext;
+
+    @Autowired
+    private LiftCycle liftCycle;
+
+    /**
+     * 验证自定义事件监听
+     * 使用context.publishEvent(ApplicationEvent)
+     */
+    @GetMapping(value = "/getListener",produces = MediaType.APPLICATION_JSON_VALUE)
+    public void getListener(){
+        MyApplicationEvent myApplicationEvent=new MyApplicationEvent(liftCycle);
+        hpApplicationContext.getContext().publishEvent(myApplicationEvent);
     }
 }
