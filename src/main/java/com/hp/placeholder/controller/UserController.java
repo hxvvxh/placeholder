@@ -2,6 +2,7 @@ package com.hp.placeholder.controller;
 
 import com.hp.placeholder.applicationContext.HpApplicationContext;
 import com.hp.placeholder.listener.my.MyApplicationEvent;
+import com.hp.placeholder.postprocess.bean.HpBeanDefin;
 import com.hp.placeholder.wxb.aop.annotion.Log;
 import com.hp.placeholder.wxb.bean.Red;
 import com.hp.placeholder.wxb.pojo.LiftCycle;
@@ -74,5 +75,13 @@ public class UserController {
     public void getListener(){
         MyApplicationEvent myApplicationEvent=new MyApplicationEvent(liftCycle);
         hpApplicationContext.getContext().publishEvent(myApplicationEvent);
+    }
+
+    @Autowired(required = false)
+    private HpBeanDefin definOfBeanFactory;
+
+    @GetMapping(value = "/getBeanDefinOfBeanFactory",produces = MediaType.APPLICATION_JSON_VALUE)
+    public HpBeanDefin getBeanDefinOfBeanFactory(){
+        return definOfBeanFactory;
     }
 }

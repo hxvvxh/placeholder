@@ -1,4 +1,4 @@
-package com.hp.placeholder.wxb.bean;
+package com.hp.placeholder.postprocess;
 
 import com.hp.placeholder.imports.Color;
 import lombok.extern.slf4j.Slf4j;
@@ -20,7 +20,8 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Slf4j
-public class MyBeanPostProcessor implements BeanPostProcessor {
+public class HpBeanPostProcessor implements BeanPostProcessor {
+
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         if (beanName.toLowerCase().contains("color")){

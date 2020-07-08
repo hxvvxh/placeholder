@@ -4,6 +4,8 @@ debug: true
 logging:
   level:
     com.hp.placeholder.mapper: debug
+  file:
+    name: H:\数跑\workspace\占位符替换\placeholder\placeholder\log\hp.log
 hp:
   value: value
   placeholder: ?{hp.place}
