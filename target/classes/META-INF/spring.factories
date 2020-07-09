@@ -1,4 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.hp.placeholder.placeholder.autoConfig.HpPlaceHolderAutoConfigurer
-org.springframework.context.ApplicationContextInitializer=\
-com.hp.placeholder.Initalizer.HpApplicationContextInitalizer
