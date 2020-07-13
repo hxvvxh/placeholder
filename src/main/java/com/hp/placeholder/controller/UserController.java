@@ -3,6 +3,7 @@ package com.hp.placeholder.controller;
 import com.hp.placeholder.applicationContext.HpApplicationContext;
 import com.hp.placeholder.listener.my.MyApplicationEvent;
 import com.hp.placeholder.postprocess.bean.HpBeanDefin;
+import com.hp.placeholder.postprocess.bean.HpBeanDefin2;
 import com.hp.placeholder.wxb.aop.annotion.Log;
 import com.hp.placeholder.wxb.bean.Red;
 import com.hp.placeholder.wxb.pojo.LiftCycle;
@@ -84,4 +85,12 @@ public class UserController {
     public HpBeanDefin getBeanDefinOfBeanFactory(){
         return definOfBeanFactory;
     }
+
+    @Autowired
+    private HpBeanDefin2 hpBeanDefin2;
+    @GetMapping(value = "/getBeanDefinitionRegistryPostProcessor",produces = MediaType.APPLICATION_JSON_VALUE)
+    public HpBeanDefin2 getBeanDefinitionRegistryPostProcessor(){
+        return hpBeanDefin2.get();
+    }
+
 }
