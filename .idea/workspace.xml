@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8930b074-5349-43a7-9572-bb8e4476e838" name="Default" comment="11111">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/hp.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/hp.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/postprocess/HpBeanDefinitionRegistryPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/postprocess/HpBeanDefinitionRegistryPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="H:\数跑\workspace\占位符替换\placeholder\placeholder\.idea\shelf/" />
@@ -24,38 +21,41 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="42" />
-          <entry key="java" value="174" />
+          <entry key="java" value="177" />
           <entry key="log" value="2" />
-          <entry key="xml" value="3" />
+          <entry key="pom" value="1" />
+          <entry key="xml" value="5" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="42" />
-          <entry key="JAVA" value="174" />
+          <entry key="JAVA" value="177" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="6" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="2243" />
+          <entry key="java" value="2328" />
+          <entry key="xml" value="19" />
           <entry key="yml" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="2243" />
+          <entry key="JAVA" value="2328" />
+          <entry key="XML" value="19" />
           <entry key="YAML" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.47" value="1" />
@@ -67,104 +67,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/postprocess/HpBeanFactoryPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="71" column="44" lean-forward="true" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/postprocess/bean/HpBeanDefin2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/postprocess/HpBeanDefinitionRegistryPostProcessor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/transation/TransationAutoConfigtion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="235">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/postprocess/HpBeanPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-116">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE-sources.jar!/org/springframework/util/CollectionUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
               <folding>
-                <element signature="e#2664#2665#0" expanded="true" />
-                <element signature="e#2726#2727#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistryPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="32" column="85" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="363" selection-start-line="363" selection-end-line="363" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="161" selection-start-line="161" selection-end-line="161" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="227" column="78" selection-start-line="227" selection-start-column="78" selection-end-line="227" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -204,6 +114,7 @@
       <find>HpBeanDefin3</find>
       <find>registry hpBeanDefin2 success</find>
       <find>hpbeandefin2</find>
+      <find>spring-jdbc</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -215,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/application/HpApplicationContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/listener/my/MyApplicationEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/listener/my/MyApplicationListener.java" />
@@ -236,6 +146,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/postprocess/bean/HpBeanDefin3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/postprocess/bean/HpBeanDefin2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/postprocess/HpBeanDefinitionRegistryPostProcessor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/transation/TransationAutoConfigtion.java" />
       </list>
     </option>
   </component>
@@ -249,6 +161,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/maven-lv/apache-maven-3.5.2-bin/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\maven-lv\apache-maven-3.5.2-bin\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -315,66 +228,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="placeholder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="postprocess" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="placeholder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="postprocess" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="placeholder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="wxb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="placeholder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="wxb" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="placeholder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="wxb" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="placeholder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
-              <item name="wxb" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="transation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,10 +242,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="HpBeanDefin3&#9;FILE&#9;file://H:/数跑/workspace/占位符替换/placeholder/placeholder/src/main/java/com/hp/placeholder/postprocess/bean/HpBeanDefin3.java&#10;CachingMetadataReaderFactory&#9;PSI&#9;JAVA://org.springframework.core.type.classreading.CachingMetadataReaderFactory&#10;ConfigurationClasspos&#9;PSI&#9;JAVA://org.springframework.context.annotation.ConfigurationClassPostProcessor&#10;spring&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/boot/spring-boot/2.2.6.RELEASE/spring-boot-2.2.6.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java&#10;HpBeanFactoryPostProcessor&#9;FILE&#9;file://H:/数跑/workspace/占位符替换/placeholder/placeholder/src/main/java/com/hp/placeholder/postprocess/HpBeanFactoryPostProcessor.java&#10;MultipartAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration" />
+    <property name="SearchEverywhereHistoryKey" value="EnableTransactionManagement&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.EnableTransactionManagementConfiguration&#10;HpBeanDefin3&#9;FILE&#9;file://H:/数跑/workspace/占位符替换/placeholder/placeholder/src/main/java/com/hp/placeholder/postprocess/bean/HpBeanDefin3.java&#10;CachingMetadataReaderFactory&#9;PSI&#9;JAVA://org.springframework.core.type.classreading.CachingMetadataReaderFactory&#10;ConfigurationClasspos&#9;PSI&#9;JAVA://org.springframework.context.annotation.ConfigurationClassPostProcessor&#10;spring&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/boot/spring-boot/2.2.6.RELEASE/spring-boot-2.2.6.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java&#10;HpBeanFactoryPostProcessor&#9;FILE&#9;file://H:/数跑/workspace/占位符替换/placeholder/placeholder/src/main/java/com/hp/placeholder/postprocess/HpBeanFactoryPostProcessor.java&#10;MultipartAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594649022459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594650289744" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -468,7 +322,7 @@
       <workItem from="1594214374548" duration="7243000" />
       <workItem from="1594299919893" duration="6529000" />
       <workItem from="1594471818896" duration="266000" />
-      <workItem from="1594646414863" duration="2640000" />
+      <workItem from="1594646414863" duration="3841000" />
     </task>
     <task id="LOCAL-00001" summary="doc">
       <created>1591710413417</created>
@@ -487,7 +341,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18488000" />
+    <option name="totallyTimeSpent" value="19689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1308" height="784" extended-state="6" />
@@ -510,7 +364,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3276923" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32916668" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4523077" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4846154" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32986626" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.25846153" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.51076925" />
@@ -822,27 +676,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.6.RELEASE/spring-boot-2.2.6.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="314" column="34" selection-start-line="314" selection-start-column="27" selection-end-line="314" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="244" column="9" selection-start-line="244" selection-start-column="9" selection-end-line="244" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/annotation/ConfigurationCondition.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1121,13 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/postprocess/bean/HpBeanDefin3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1205,8 +1031,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/postprocess/HpBeanDefinitionRegistryPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="28" column="64" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.9.RELEASE/spring-tx-5.0.9.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/transation/TransationAutoConfigtion.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
