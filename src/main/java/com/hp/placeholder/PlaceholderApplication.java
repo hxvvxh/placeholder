@@ -3,6 +3,7 @@ package com.hp.placeholder;
 import com.hp.placeholder.imports.IntImportBeanDefinitionRegistrar;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
@@ -12,7 +13,7 @@ import java.util.Arrays;
 
 @SpringBootApplication(scanBasePackages = {
         "com.hp.placeholder"
-})
+},exclude = DataSourceAutoConfiguration.class)
 /**
  * import1 直接在主类上添加
  */

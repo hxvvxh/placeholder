@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.hp.placeholder.wxb.config.ConfigOfPropertyValues2",
+      "name": "hpp",
+      "type": "com.hp.placeholder.wxb.config.ConfigOfPropertyValues2"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.hp.placeholder.wxb.config.ConfigOfPropertyValues2",
+      "name": "hpp.pass-word",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.hp.placeholder.wxb.config.ConfigOfPropertyValues2",
+      "name": "hpp.user-name",
+      "type": "java.lang.String"
+    }
+  ]
+}
