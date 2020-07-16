@@ -17,9 +17,15 @@ import org.springframework.stereotype.Component;
  * */
 @Data
 @Component
+/**
+ * ignoreInvalidFields = true 表示配置属性错误时，依然可以springboot启动成功
+ */
 @ConfigurationProperties(prefix = "hpp",ignoreInvalidFields = true)
 //@EnableConfigurationProperties
 public class ConfigOfPropertyValues2 {
-    private String userName;
+    /**
+     * 当属性匹配失败的时候 选择默认配置属性true
+     */
+    private String userName="true";
     private String passWord;
 }

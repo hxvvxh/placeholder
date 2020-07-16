@@ -15,7 +15,9 @@
     },
     {
       "sourceType": "com.hp.placeholder.wxb.config.ConfigOfPropertyValues2",
+      "defaultValue": "true",
       "name": "hpp.user-name",
+      "description": "当属性匹配失败的时候 选择默认配置属性true",
       "type": "java.lang.String"
     }
   ]

@@ -26,6 +26,10 @@ import java.util.Arrays;
  * improt3 使用ImportBeanDefinitionRegistrar(手工定义bean)
  */
 @Import({IntImportBeanDefinitionRegistrar.class})
+/**
+ * 此注解表示可以使用@ConfigurationProperties
+ */
+@EnableConfigurationProperties
 public class PlaceholderApplication {
 
     public static void main(String[] args) {
