@@ -7,6 +7,9 @@ import com.hp.placeholder.postprocess.bean.HpBeanDefin2;
 import com.hp.placeholder.wxb.aop.annotion.Log;
 import com.hp.placeholder.wxb.bean.Red;
 import com.hp.placeholder.wxb.pojo.LiftCycle;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
@@ -21,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2020/5/6 19:54
  */
 @RestController
-@Api(tag={"User-Controller"})
+@Api(tags={"User-Controller"})
 public class UserController {
     @Value("${hp.value}")
     private String value;
@@ -58,7 +61,7 @@ public class UserController {
         return red.getApplicationName();
     }
 
-    @ApiOperation(value="/hp/{hp}",method= RequestMethod.GET)
+    @ApiOperation(value="/hp/{hp}",notes = "备注")
     @ApiImplicitParam(name="获取hp",
                       value="hp参数",
                       paramType="path",

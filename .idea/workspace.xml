@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8930b074-5349-43a7-9572-bb8e4476e838" name="Default" comment="11111">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox__unknown.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/placeholder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/placeholder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/hp.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/hp.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/hp.log.2020-07-08.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/PlaceholderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/PlaceholderApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/wxb/config/ConfigOfPropertyValues2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/wxb/config/ConfigOfPropertyValues2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hp/placeholder/PlaceholderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hp/placeholder/PlaceholderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hp/placeholder/wxb/config/ConfigOfPropertyValues2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hp/placeholder/wxb/config/ConfigOfPropertyValues2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/swagger/SwaggerAutoConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hp/placeholder/swagger/SwaggerAutoConfigration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hp/placeholder/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hp/placeholder/controller/UserController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="H:\数跑\workspace\占位符替换\placeholder\placeholder\.idea\shelf/" />
@@ -29,7 +24,7 @@
     <session id="591082373">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="47" />
+          <entry key="class" value="49" />
           <entry key="java" value="220" />
           <entry key="log" value="2" />
           <entry key="pom" value="2" />
@@ -40,7 +35,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="47" />
+          <entry key="CLASS" value="49" />
           <entry key="JAVA" value="220" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
@@ -51,7 +46,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="3167" />
+          <entry key="java" value="3184" />
           <entry key="xml" value="78" />
           <entry key="yml" value="81" />
         </counts>
@@ -59,7 +54,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="3167" />
+          <entry key="JAVA" value="3184" />
           <entry key="XML" value="78" />
           <entry key="YAML" value="81" />
         </counts>
@@ -79,11 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+            <state relative-caret-position="146">
+              <caret line="88" column="43" lean-forward="true" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -99,16 +94,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/PlaceholderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-264">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/swagger/SwaggerAutoConfigration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="196">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +114,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+            <state relative-caret-position="-27">
+              <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13.jar!/io/swagger/annotations/Api.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13.jar!/io/swagger/annotations/ApiOperation.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -136,7 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>liftCycle</find>
       <find>BeanPostProcessor</find>
       <find>logging.file.path</find>
       <find>/h</find>
@@ -166,6 +178,7 @@
       <find>config</find>
       <find>OPENCONN</find>
       <find>URL(</find>
+      <find>/name</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -203,9 +216,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/PlaceholderApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/wxb/config/ConfigOfPropertyValues2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/swagger/swaggerAutoConfigration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/swagger/SwaggerAutoConfigration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/controller/UserController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hp/placeholder/swagger/SwaggerAutoConfigration.java" />
       </list>
     </option>
   </component>
@@ -301,6 +314,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="placeholder" type="462c0819:PsiDirectoryNode" />
+              <item name="factoryBean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="placeholder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="placeholder" type="462c0819:PsiDirectoryNode" />
               <item name="swagger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,7 +347,7 @@
     <property name="SearchEverywhereHistoryKey" value="URL&#9;PSI&#9;JAVA://java.net.URL&#10;TransactionInterceptor&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/spring-tx/5.2.5.RELEASE/spring-tx-5.2.5.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.java&#10;EnableTransactionManagement&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/spring-tx/5.2.5.RELEASE/spring-tx-5.2.5.RELEASE-sources.jar!/org/springframework/transaction/annotation/EnableTransactionManagement.java&#10;HpBeanDefin3&#9;FILE&#9;file://H:/数跑/workspace/占位符替换/placeholder/placeholder/src/main/java/com/hp/placeholder/postprocess/bean/HpBeanDefin3.java&#10;CachingMetadataReaderFactory&#9;PSI&#9;JAVA://org.springframework.core.type.classreading.CachingMetadataReaderFactory&#10;ConfigurationClasspos&#9;PSI&#9;JAVA://org.springframework.context.annotation.ConfigurationClassPostProcessor&#10;spring&#9;FILE&#9;jar://D:/maven-reponse/org/springframework/boot/spring-boot/2.2.6.RELEASE/spring-boot-2.2.6.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java&#10;HpBeanFactoryPostProcessor&#9;FILE&#9;file://H:/数跑/workspace/占位符替换/placeholder/placeholder/src/main/java/com/hp/placeholder/postprocess/HpBeanFactoryPostProcessor.java&#10;MultipartAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594907595375" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594909979150" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -403,7 +425,7 @@
       <workItem from="1594299919893" duration="6529000" />
       <workItem from="1594471818896" duration="266000" />
       <workItem from="1594646414863" duration="3841000" />
-      <workItem from="1594903872270" duration="2881000" />
+      <workItem from="1594903872270" duration="4209000" />
     </task>
     <task id="LOCAL-00001" summary="doc">
       <created>1591710413417</created>
@@ -422,7 +444,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23965000" />
+    <option name="totallyTimeSpent" value="25293000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1308" height="784" extended-state="6" />
@@ -439,7 +470,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.7323077" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36307693" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47384617" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3276923" />
@@ -793,16 +824,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/sql/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1122,24 +1143,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/PlaceholderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/swagger/SwaggerAutoConfigration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1150,8 +1154,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        <state relative-caret-position="146">
+          <caret line="88" column="43" lean-forward="true" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13.jar!/io/swagger/annotations/ApiOperation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13.jar!/io/swagger/annotations/Api.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hp/placeholder/swagger/SwaggerAutoConfigration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
