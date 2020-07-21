@@ -80,6 +80,7 @@
             <version>3.9</version>
         </dependency>
 
+        <!-- springboot 集成 swagger -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>

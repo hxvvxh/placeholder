@@ -54,3 +54,18 @@
     可以将spring容器中存在的beanDefinition上带的注解解析并获取对应注解类中的属性转换成AnnotationAttributes
 
     其中有一个工具类：AnnotationConfigUtils.attributesFor(AnnotationMetadata,class); 找到对应的class获取注解属性封装成AnnotationAttributes（参考AspectJAutoProxyRegistrar）
+
+
+九：@Configration原理
+ConfigurationClassPostProcessor
+AnnotationConfigApplicationContext
+AnnotationConfigServletWebServerApplicationContext
+ConfigurationClassParser
+
+ConfigurationClassPostProcessor#postProcessBeanFactory#enhanceConfigurationClasses 方法中遍历了所有的beanDefinition中
+getAttribute 等于full的(这个是在ConfigurationClassPostProcessor#postProcessBeanDefinitionRegistry 中注册进去的，就是为了区分哪些类上标注了@Configuration)
+ beanDefinition为AbstractBeanDefinition的所有的单例bean
+
+ 然后循环这些beanDefinition 向其中添加了Attribute(org.springframework.aop.framework.autoproxy.AutoProxyUtils.preserveTargetClass,true) 即使用动态代理的方式创建
+ 然后在beanDefinition中设置beanClass类型为动态代理的类class XXX $$EnhancerBySpringCGLIB$$697782d0
+
