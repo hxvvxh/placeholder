@@ -102,5 +102,4 @@ public class UserController {
     public HpBeanDefin2 getBeanDefinitionRegistryPostProcessor(){
         return hpBeanDefin2.get();
     }
-
 }

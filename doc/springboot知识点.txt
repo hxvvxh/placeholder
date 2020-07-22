@@ -66,6 +66,6 @@ ConfigurationClassPostProcessor#postProcessBeanFactory#enhanceConfigurationClass
 getAttribute 等于full的(这个是在ConfigurationClassPostProcessor#postProcessBeanDefinitionRegistry 中注册进去的，就是为了区分哪些类上标注了@Configuration)
  beanDefinition为AbstractBeanDefinition的所有的单例bean
 
- 然后循环这些beanDefinition 向其中添加了Attribute(org.springframework.aop.framework.autoproxy.AutoProxyUtils.preserveTargetClass,true) 即使用动态代理的方式创建
+ 然后循环这些beanDefinition 向其中添加了Attribute(org.springframework.aop.framework.autoproxy.AutoProxyUtils.preserveTargetClass,true) 即使用Cglib动态代理的方式创建
  然后在beanDefinition中设置beanClass类型为动态代理的类class XXX $$EnhancerBySpringCGLIB$$697782d0
-
+ 需要注意的一点是：这里使用Cglib实例化bean，因为jdk动态代理是基于接口，这里就必须使用Cglib去代理
