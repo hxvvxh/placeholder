@@ -69,3 +69,29 @@ getAttribute 等于full的(这个是在ConfigurationClassPostProcessor#postProce
  然后循环这些beanDefinition 向其中添加了Attribute(org.springframework.aop.framework.autoproxy.AutoProxyUtils.preserveTargetClass,true) 即使用Cglib动态代理的方式创建
  然后在beanDefinition中设置beanClass类型为动态代理的类class XXX $$EnhancerBySpringCGLIB$$697782d0
  需要注意的一点是：这里使用Cglib实例化bean，因为jdk动态代理是基于接口，这里就必须使用Cglib去代理
+
+十：@Transactional失效场景
+springboot 默认开启声明式事务  所以在springboot环境中@EnableTransactionManagement 可以不添加
+ (1)@Transactional 应用在非 public 修饰的方法上
+ (2)@Transactional 注解属性 propagation 设置错误
+ (3)@Transactional  注解属性 rollbackFor 设置错误-Spring默认抛出了未检查unchecked异常（继承自 RuntimeException 的异常）或者 Error才回滚事务；其他异常不会触发回滚事务\
+ (4)同一个类中方法调用，导致 @Transactional 失效  A 有 B没有  A 调用B ，外部调用了A  此时是不保证B中的事务的-只有当事务方法被 当前类以外的代码 调用时，才会由Spring生成的代理对象来管理
+ (5)异常被你的 catch“吃了”导致 @Transactional 失效
+ (6)数据库引擎不支持事务
+
+十一：springboot bean的生命周期
+        (1)初始化： 是一个赋值的过程，使用get，set方法为bean设置属性
+                        BeanPostProcessor ： 作用在初始化前后
+                                    ：postProcessBeforeInitialization()/postProcessAfterInitialization()
+        (2)实例化： 一个创建bean的过程，即调用bean的构造函数创建单例bean，并将bean放入单例池中
+                InstantiationAwareBeanPostProcessor ： 作用在实例化bean的前后
+                            :postProcessBeforeInstantiation()/postProcessAfterInstantiation()/postProcessProperties()
+
+        (3)执行顺序：先初始化：执行BeanPostProcessor
+                                     -> postProcessBeforeInitialization() 初始化前置工作
+                                       ->postProcessAfterInitialization() 初始化后置工作
+                     后实例化：执行InstantiationAwareBeanPostProcessor
+                                     -> postProcessBeforeInstantiation() 实例化前置工作
+                                     -> postProcessAfterInstantiation()  实例化后置工作
+
+

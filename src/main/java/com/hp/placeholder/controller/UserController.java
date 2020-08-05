@@ -4,6 +4,7 @@ import com.hp.placeholder.applicationContext.HpApplicationContext;
 import com.hp.placeholder.listener.my.MyApplicationEvent;
 import com.hp.placeholder.postprocess.bean.HpBeanDefin;
 import com.hp.placeholder.postprocess.bean.HpBeanDefin2;
+import com.hp.placeholder.postprocess.bean.HpInstantition;
 import com.hp.placeholder.wxb.aop.annotion.Log;
 import com.hp.placeholder.wxb.bean.Red;
 import com.hp.placeholder.wxb.pojo.LiftCycle;
@@ -101,5 +102,12 @@ public class UserController {
     @GetMapping(value = "/getBeanDefinitionRegistryPostProcessor",produces = MediaType.APPLICATION_JSON_VALUE)
     public HpBeanDefin2 getBeanDefinitionRegistryPostProcessor(){
         return hpBeanDefin2.get();
+    }
+
+    @Autowired(required = false)
+    private HpInstantition hpInstantition;
+    @GetMapping(value = "/getHpInstantition",produces = MediaType.APPLICATION_JSON_VALUE)
+    public String getHpInstantition(){
+        return hpInstantition.getUser();
     }
 }

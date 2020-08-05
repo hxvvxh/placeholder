@@ -9,6 +9,31 @@ import org.springframework.context.EmbeddedValueResolverAware;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringValueResolver;
 
+/**
+ * @Component原理解析
+ *AnnotationBeanNameGenerator
+ * AnnotationConfigApplicationContext # scan
+ * ClassPathBeanDefinitionScanner //入口
+ *
+ *  AnnotationBeanNameGenerator
+ *
+ *  refresh();
+ *  (1)SpringApplication#prepareContext
+ *  项目启动的时候会进入一次generateBeanName(XXX) 方法注册启动主类PlaceholderApplication（环境准备阶段）
+ *      org.springframework.boot.BeanDefinitionLoader#load(java.lang.Class)
+ *          org.springframework.context.annotation.AnnotatedBeanDefinitionReader#register(java.lang.Class[])
+ *              org.springframework.context.annotation.AnnotatedBeanDefinitionReader#doRegisterBean(java.lang.Class, java.lang.String, java.lang.Class[], java.util.function.Supplier, org.springframework.beans.factory.config.BeanDefinitionCustomizer[])
+ *                  AnnotationBeanNameGenerator#generateBeanName
+ *
+ *  (2)AbstractApplicationContext#invokeBeanFactoryPostProcessors
+ *   解析主类上的注解属性获取基础扫描包baseScan和带有@Compent，@Service等注解属性
+ *      ConfigurationClassPostProcessor#postProcessBeanDefinitionRegistry(这里会获取到主类上的注解属性并注册得到beanDefinition) 见HpPlaceHolderAutoConfigurer
+ *
+ *
+ *
+ *
+ *
+ */
 @Component
 public class Red implements ApplicationContextAware, EmbeddedValueResolverAware, BeanNameAware {
     private ApplicationContext context;
